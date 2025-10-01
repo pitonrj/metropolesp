@@ -193,3 +193,127 @@ footer {
   from { opacity: 0; transform: translateY(-30px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+.rule-section {
+  padding: 2rem;
+  background: #f9fafb;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.rule-title {
+  color: #1e293b;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.social-rules {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.social-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.social-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.social-card h3 {
+  font-size: 1.4rem;
+  color: #000000;
+  margin-bottom: 0.8rem;
+}
+
+.social-card ul {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.social-card li {
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
+}
+
+/* Regra PD */
+.pd-regulation {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.pd-card {
+  background: #ffffff;
+  border-left: 6px solid #e50914;
+  border-radius: 0.8rem;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pd-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.pd-card h3 {
+  font-size: 1.3rem;
+  color: #000000;
+  margin-bottom: 0.6rem;
+}
+
+.pd-card p, 
+.pd-card li {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #374151;
+}
+
+.pd-card ul {
+  padding-left: 1.2rem;
+  margin-top: 0.4rem;
+}
+
+/* Regra Troll */
+.troll-card {
+  background: #fff5f5;
+  border-left: 6px solid #dc2626;
+  border-radius: 0.8rem;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.troll-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+.troll-card h3 {
+  font-size: 1.2rem;
+  color: #b91c1c;
+  margin: 1rem 0 0.6rem;
+}
+
+.troll-card p, 
+.troll-card li {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #1f2937;
+}
+
+.troll-card ul {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
